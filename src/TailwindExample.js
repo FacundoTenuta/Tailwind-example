@@ -1,9 +1,16 @@
 import React from 'react'
+import { Features } from './Features'
+import { Footer } from './Footer'
+import { Header } from './Header'
+import { Hero } from './Hero'
 
 export const TailwindExample = () => {
     return (
-        <div className="container bg-gray-800 h-screen">
-
-        </div>
+        <>
+            <Header />
+            <Hero />
+            <Features />
+            <Footer />
+        </>
     )
 }
